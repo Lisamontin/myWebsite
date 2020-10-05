@@ -1,1 +1,0 @@
-Hey, this is notepad opened from bash.
