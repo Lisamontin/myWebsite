@@ -1,0 +1,1 @@
+document.getElementById('display').innerHTML = '<h1>Hello pirates</h1>';
