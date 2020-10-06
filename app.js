@@ -1,1 +1,1 @@
-document.getElementById('display').innerHTML = '<h1>Hello pirates</h1>';
+document.getElementById('display').innerHTML = '<h1>A programmer</h1>';
