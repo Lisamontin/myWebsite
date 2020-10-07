@@ -5,6 +5,11 @@ body {
 .beige-text {
   color: beige;
 }
+
+.center {
+  text-align: center;
+}
+
 #display {
 float: right;
 margin-right: 300px;
@@ -22,11 +27,13 @@ padding-bottom: 200px;
 .navigation-container {
   display: flex;
   align-items: center;
-  /* flex-direction: column; */
   justify-content: space-between;
-  
 }
 
+.flex-column {
+  flex-direction: column;
+
+}
 .navigation-container div {
   margin: 10px;
   padding: 20px;
