@@ -32,7 +32,9 @@ padding-bottom: 200px;
 
 .flex-column {
   flex-direction: column;
-
+}
+.flex-row {
+  flex-direction: row;
 }
 .navigation-container div {
   margin: 10px;
@@ -59,7 +61,9 @@ padding-bottom: 200px;
 
 .quotes {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 1000px;
+  /* position: absolute; */
+  
   
 }
 /* Animation */

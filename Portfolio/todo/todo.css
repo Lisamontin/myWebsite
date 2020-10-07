@@ -1,0 +1,21 @@
+li {
+  list-style: none;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.remove {
+  color: red;
+  float: right;
+  margin-right: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
