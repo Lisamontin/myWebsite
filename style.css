@@ -2,10 +2,20 @@ body {
   background-color: rgb(53, 52, 50);
 }
 
+.beige-text {
+  color: beige;
+}
+#display {
+float: right;
+margin-right: 300px;
+padding-bottom: 200px;
+}
+
 #name {
   font-family: 'Abril Fatface', cursive, "Times New Roman", Times, serif;
   font-size: 100px;
   text-align: center;
+  /* padding-top: 5px; */
   
 }
 
@@ -20,10 +30,9 @@ body {
 .navigation-container div {
   margin: 10px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 25px;
 }
 .navigation-container div a {
-  color: beige;
   text-decoration: none;
 }
 
@@ -31,15 +40,21 @@ body {
   position: fixed;
   right: 0;
   left: 0;
-  padding-bottom: 200px;
+  padding-bottom: 217px;
   color: rgb(53, 52, 50);
-  background-image: url(./Photos/robert-wnuk-7MGaw--_kwA-unsplash.jpg);
-  background-position: center;
+  background-image: url(./Photos/robert-wnuk-7MGaw--_kwA-unsplash.jpg); /*Fall*/
+  /* background-image: url(./Photos/alexander-possingham-JQS64mmmuHw-unsplash.jpg);*//* winter */
+
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-
+.quotes {
+  text-align: center;
+  padding-top: 60px;
+  
+}
 /* Animation */
 .leaf{
   text-align: right;
