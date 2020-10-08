@@ -24,6 +24,13 @@ padding-bottom: 200px;
   
 }
 
+#me-pic {
+  width: 250px;
+  border-radius: 100%;
+  border: burlywood solid 3px;
+  margin: 5rem;
+}
+
 .navigation-container {
   display: flex;
   align-items: center;
@@ -98,3 +105,25 @@ padding-bottom: 200px;
   }
 }
 
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: left;
+  width: 180px;
+  padding: 5px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
