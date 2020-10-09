@@ -1,5 +1,8 @@
 body {
   background-color: rgb(53, 52, 50);
+  font-family: 'Roboto', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .beige-text {
@@ -26,8 +29,8 @@ padding-bottom: 200px;
 
 #me-pic {
   width: 250px;
-  border-radius: 100%;
-  border: burlywood solid 3px;
+  border-radius: 7%;
+  border: gray solid 2px;
   margin: 5rem;
 }
 

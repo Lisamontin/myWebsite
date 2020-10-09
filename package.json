@@ -1,0 +1,23 @@
+{
+  "name": "story",
+  "version": "1.0.0",
+  "description": "Webpage to showcase Lisa Montin",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lisamontin/myWebsite.git"
+  },
+  "author": "Lisa Montin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lisamontin/myWebsite/issues"
+  },
+  "homepage": "https://github.com/Lisamontin/myWebsite#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "unirest": "^0.6.0"
+  }
+}
